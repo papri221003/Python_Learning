@@ -36,3 +36,6 @@ list_student = ["A","A","C","B","D","B"]
 list_student.sort()
 
 print(list_student)
+
+New_tuple=(1,"new",4.5,"Papri")
+print(New_tuple)
