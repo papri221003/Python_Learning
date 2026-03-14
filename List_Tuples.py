@@ -32,6 +32,3 @@ print("'C' Graded students are: ",student.count("C"))
 List_Student=["A","A","C","B","D","B"]
 List_Student.sort()
 print(List_Student)
-
-
-#started git hub.....
