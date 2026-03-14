@@ -1,4 +1,4 @@
-#WAP to the user to give the movie names and store them in the list
+
 """
 movie=[]
 movie.append(input("Enter the movie name: "))
@@ -9,26 +9,30 @@ print(movie)
 
 """
 
-#WAP to check if the list contains the elements they are pallindrome or not
 
-list=[1,2,2,1]
 
-list2=list.copy()
-list2.reverse()
+# Palindrome list check
+nums = [1,2,2,1]
 
-if(list==list2):
+nums2 = nums.copy()
+nums2.reverse()
+
+if nums == nums2:
     print("Palindrome")
 else:
     print("Not a Palindrome")
-    
 
-#WAP to count the number of students of grade A
 
-student=("A","A","C","B","D","B")
-print("'A' Graded students are: ",student.count("A"))
-print("'B' Graded students are: ",student.count("B"))
-print("'C' Graded students are: ",student.count("C"))
+# Count grades
+student = ("A","A","C","B","D","B")
 
-List_Student=["A","A","C","B","D","B"]
-List_Student.sort()
-print(List_Student)
+print("A grade:", student.count("A"))
+print("B grade:", student.count("B"))
+print("C grade:", student.count("C"))
+
+
+# Sort list
+list_student = ["A","A","C","B","D","B"]
+list_student.sort()
+
+print(list_student)
