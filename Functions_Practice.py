@@ -40,3 +40,12 @@ def convert(usd):
 
 amount=convert(10)
 print(amount)
+
+#write a programe to find even and odd
+def determine_even_odd(a):
+    if(a%2!=0):
+        print("ODD")
+    else:
+        print("EVEN")
+        
+determine_even_odd(24)
