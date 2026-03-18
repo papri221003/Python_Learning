@@ -17,7 +17,7 @@ class Student:
     clg_name="ABC college"
     name="Anoymous"
     
-    def __init__(self,name):
+    def __init__(self,name):  #Parameterised Constructor
         self.name=name
         print("Name of the student is: ",self.name)
         
