@@ -1,0 +1,13 @@
+marks=[70,85,96,45,90,86]
+print(marks)
+print(len(marks))
+print(marks[0:4])
+marks.append(97)
+print(marks)
+marks.sort()
+print(marks)
+marks.reverse()
+print(marks)
+marks.reverse()
+marks.insert(1,81)
+print(marks)
