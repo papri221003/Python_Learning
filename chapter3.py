@@ -33,3 +33,5 @@ mylist=list(tup)
 
 mylist.sort()
 print(mylist)
+mylist[0]="K"
+print(mylist)
