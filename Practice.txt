@@ -1,4 +1,3 @@
-Hi.Everyone.
-We are learning file I/O
-using Python
-I like Programming in Python
+Hi EveryOne.
+We are learning I/O using java.
+I like Programming in java.
